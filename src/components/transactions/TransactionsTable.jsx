@@ -15,57 +15,7 @@ import {
   TableHeader,
   TableRow,
 } from "@/components/ui/table"
-
-const data = [
-  {
-    id: '1',
-    amount: 314,
-    cardHolder: "X",
-    currency: "USD",
-    status: "Pending",
-    Created: "Nov 15, 2000",
-  },
-  {
-    id: '2',
-    amount: 200,
-    cardHolder: "Y",
-    currency: "USD",
-    status: "Completed",
-    Created: "Nov 16, 2000",
-  },
-  {
-    id: '3',
-    amount: 150,
-    cardHolder: "Z",
-    currency: "USD",
-    status: "Failed",
-    Created: "Nov 17, 2000",
-  },
-  {
-    id: '4',
-    amount: 400,
-    cardHolder: "A",
-    currency: "USD",
-    status: "Pending",
-    Created: "Nov 18, 2000",
-  },
-  {
-    id: '5',
-    amount: 600,
-    cardHolder: "B",
-    currency: "USD",
-    status: "Completed",
-    Created: "Nov 19, 2000",
-  },
-  {
-    id: '6',
-    amount: 500,
-    cardHolder: "C",
-    currency: "USD",
-    status: "Failed",
-    Created: "Nov 20, 2000",
-  },
-];
+import data from './transactions-data.json'
 
 export const columns = [
   {

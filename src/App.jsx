@@ -1,7 +1,7 @@
 import React from "react";
 import { Tabs, TabsList, TabsTrigger, TabsContent } from "@/components/ui/tabs"; // Import ShadCN/UI Tabs component
-import { TablePage } from "./TablePage";
-import CardInformation from "./card-info";
+import { TablePage } from "./components/transactions/TransactionsTable";
+import CardInformation from "./components/card-information/cardInformation";
 
 const App = () => {
   return (
